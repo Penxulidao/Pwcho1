@@ -1,7 +1,7 @@
 # Instrukcja
 
 # Zadanie 2 #
-
+![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/Dockerfile.PNG "Dockerfile")
 
 Dockerfile.
 # Zadanie 3 #
