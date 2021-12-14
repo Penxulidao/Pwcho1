@@ -1,0 +1,17 @@
+{
+  "name": "myproject",
+  "version": "1",
+  "description": "",
+  "author": "Yurii Shnyt",
+  "type": "module",
+  "main": "mojserwer.js",
+  "scripts": {
+    "start": "node mojserwer.js"
+  },
+  "dependencies": {
+    "await": "^0.2.6",
+    "express": "^4.16.1",
+    "node-fetch": "^3.0.0",
+    "open": "^8.4.0"
+  }
+}
