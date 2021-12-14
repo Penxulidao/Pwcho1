@@ -6,19 +6,19 @@
 Dockerfile.
 # Zadanie 3 #
 ## a. docker build -f Dockerfile -t local . ##
-![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20build.PNG "docker build")
+![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20build.png "docker build")
 
 Budowanie obrazu za pomocą Dockerfile.
 ## b. docker run -p 2300:1600 -d --rm --name Projekt local ##
-![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20run.PNG "docker run")
+![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20run.png "docker run")
 
 Uruchom obraz lokalny w kontenerze o nazwie Project, 2300 to port hosta, 1600 to port kontenera.
 ## c. docker logs Projekt ##
-![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20logs.PNG "docker logs")
+![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/docker%20logs.png "docker logs")
 
 Logi z kontenera.
 ## d. docker image inspect local | jq ".[] .RootFS" ##
-![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/image%20inspect.PNG "docker logs")
+![alt text](https://github.com/Penxulidao/Pwcho2/blob/main/pics/image%20inspect.png "docker logs")
 
 Sprawdź informacje o liczbie warstw.
 # Zadanie 4 #
